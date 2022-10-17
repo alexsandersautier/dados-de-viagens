@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo-rotas.css">
+  <title>Cadastro de veículos</title>
+</head>
+<body>
+  <div>
+    <form id="form_login" action="veiculos.php" method="POST">
+      <h3>Cadastro de veículos</h3>
+      <input type="text" name="txtModelo" id="txtModelo" placeholder="Modelo do veículo">
+      <select name="tipoCombustivel" id="tipoCombustivel">
+        <option value="0">Selecione</option>
+        <option value="1">Gasolina</option>
+        <option value="2">Diesel</option>
+        <option value="3">Alcool</option>
+      </select>
+      <input type="text" name="txtAutoVei" id="txtAutoVei" placeholder="autonomia do veiculo em Km/l">
+      <input type="text" name="txtPrecoCombus" id="txtPrecoCombus" placeholder="preço do combustível">
+      <input class="botao" type="submit" value="Gravar">
+      <input class="botao espaco" type="reset" value="Cancelar">
+    </form>
+    <form action="menu.php" method="post">
+      <input class="botao" type="submit" value="voltar">
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+div{
+    background-color: darkgray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: black;
+}
+input{
+    display: block;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+select{
+    display: block;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+.botao{
+    display: inline;
+    background-color: black;
+    border: none;
+    margin-top: 15px;
+    padding: 3px;
+    width: 30%;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.espaco{
+    margin-left: 83px;
+}
+.listagemRotas{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    background-color: darkgray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    border-radius: 15px;
+    color: black;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo-rotas.css">
+  <title>Cadastro de Rotas</title>
+</head>
+<body>
+  <div>
+    <form id="form_login" action="rotas.php" method="POST">
+      <h3>Cadastro de Rotas</h3>
+      <input type="text" name="txtCidOri" id="txtCidOri" placeholder="cidade origem">
+      <input type="text" name="txtCidDest" id="txtCidDest" placeholder="cidade destino">
+      <input type="text" name="txtKm" id="txtKm" placeholder="distância em quilometros">
+      <input class="botao" type="submit" value="Gravar">
+      <input class="botao espaco" type="reset" value="Cancelar">
+    </form>
+    <form action="menu.php" method="post">
+      <input class="botao" type="submit" value="voltar">
+    </form>
+  </div>
+</body>
+</html>
